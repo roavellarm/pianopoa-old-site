@@ -100,7 +100,7 @@ h5 {
 .card {
   width: 100%;
   font-size: 1.8rem;
-  line-height: 180%;
+  line-height: 165%;
   font-style: normal;
   background: rgba(0, 0, 0, 0.5);
   padding: 2rem;
@@ -117,6 +117,7 @@ h5 {
 
 .depoimentos {
   display: flex;
+  justify-content: center;
   font-style: italic;
   font-weight: lighter;
 }
@@ -230,7 +231,6 @@ h5 {
 
 ::-webkit-scrollbar-thumb {
   background: rgba(124, 63, 225, 0.8);
-  /* #a981eb */
   border-radius: 100px;
 }
 
