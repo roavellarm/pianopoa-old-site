@@ -51,7 +51,8 @@ h5 {
   flex-direction: column;
   width: 100%;
   background: #a981eb;
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
+  margin-top: 50px;
   color: #fefefa;
   font-family: Gabriola;
   font-size: 18px;
@@ -59,18 +60,28 @@ h5 {
 }
 
 .header {
-  background: #cfc8f3;
+  background: rgba(124, 63, 225, 0.2);
   border: 1px solid #a981eb;
   border-top: none;
-  margin-top: 50px;
   text-align: center;
   padding: 1rem 1rem 4rem 1rem;
 }
 
+.header>h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  padding-top: 3rem;
+}
+
+.header>a {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  /* padding-top: 3rem; */
+}
+
 .header-subtitle {
-  font-family: Gabriola;
   font-weight: bold;
-  color: #ce57ef;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 3rem;
   line-height: 160%;
   margin: 2rem 0 1rem 0;
@@ -102,14 +113,14 @@ h5 {
   font-size: 1.8rem;
   line-height: 165%;
   font-style: normal;
-  background: rgba(0, 0, 0, 0.5);
+  background: #554176;
   padding: 2rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
 }
 
 .depoimentos-title {
-  color: rgba(0, 0, 0, 0.5);
+  color: #554176;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -132,7 +143,7 @@ h5 {
 .footer {
   display: flex;
   color: white;
-  background: #a981eb;
+  background: #554176;
   margin-top: 4rem;
   justify-content: space-around;
   align-items: flex-start;
