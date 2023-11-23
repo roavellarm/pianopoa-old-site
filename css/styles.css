@@ -13,6 +13,23 @@ h5 {
   margin-bottom: 1rem;
 }
 
+.bamboletras-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 2rem;
+  /* background: red; */
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 160%;
+}
+
 .nav {
   padding: 0 1rem;
 }
@@ -67,13 +84,13 @@ h5 {
   padding: 1rem 1rem 4rem 1rem;
 }
 
-.header>h4 {
+.header > h4 {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 600;
   padding-top: 3rem;
 }
 
-.header>a {
+.header > a {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 600;
   /* padding-top: 3rem; */
@@ -186,6 +203,9 @@ h5 {
   }
   .header-subtitle {
     font-size: 2rem;
+  }
+  .bamboletras-container {
+    flex-direction: column;
   }
   .footer {
     flex-direction: column;
